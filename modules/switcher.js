@@ -1,9 +1,10 @@
 // display current date
 /* eslint-disable no-undef */
 export const currentDate = () => {
-  const DateTime = luxon.DateTime.local();
+  const DateTime = luxon.DateTime;
+  const now = DateTime.now();
 
-  return DateTime;
+  return now.toLocaleString(DateTime.DATETIME_MED);
 };
 
 export const pageSwitcher = () => {

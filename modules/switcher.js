@@ -1,7 +1,7 @@
 // display current date
 /* eslint-disable no-undef */
 export const currentDate = () => {
-  const DateTime = luxon.DateTime;
+  const { DateTime } = luxon;
   const now = DateTime.now();
 
   return now.toLocaleString(DateTime.DATETIME_MED);

@@ -37,18 +37,9 @@ Twitter: @twitter3745635<br />
 
 
 LinkedIn: Josphat Kiploman<br />
-Author2
-
-GitHub: @Abdulhamiid<br />
-
-
-Twitter: @Abdulahamid<br />
-
-
-LinkedIn: Abduhamiid<br />
 
 ## **🤝 Contributing**
-1. Clone repo and create a new branch: `$ git clone git@github.com:Josphat205/awesome-books.git`.
+1. Clone repo and create a new branch: `$ git clone git@github.com:Josphat205/modules-awesome-books.git`.
 2. Make changes and test
 3. Submit Pull Request with comprehensive description of changes
 

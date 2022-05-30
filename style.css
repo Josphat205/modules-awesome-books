@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  /* font-family: 'Oswald', sans-serif; */
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#navbar,
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid #000;
+  padding: 0 5px;
+  height: 40px;
+  align-items: center;
+}
+
+#date {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+footer {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+main {
+  width: 80%;
+  margin: 10px auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
+.content {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.book-list {
+  border: 2px solid black;
+  width: 100%;
+  justify-content: left;
+  display: block;
+}
+
+.book-list li {
+  list-style: none;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  padding: 3px 10px;
+  margin-left: -40px;
+  font-size: 25px;
+}
+
+.book-list li:nth-child(odd) {
+  background-color: #fff;
+}
+
+.book-list li p {
+  margin: 10px 20px;
+}
+
+.book-list li button,
+#add {
+  padding: 7px 20px;
+  border: 2px solid #000;
+  outline: none;
+  background-color: rgb(253, 251, 251);
+  font-weight: bold;
+  box-shadow: -4px 4px #000;
+  height: 40px;
+}
+
+#add:hover {
+  cursor: pointer;
+}
+
+.book-list li button:hover {
+  background-color: darkgray;
+  color: black;
+}
+
+#nav-list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#nav-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 80%;
+  border-right: 2px solid #000;
+}
+
+#nav-list li:last-child {
+  border: none;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: auto;
+  gap: 10px;
+  width: 40%;
+}
+
+#form input {
+  padding: 5px 15px;
+  width: 100%;
+  border: 2px solid #000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Grape Nuts', cursive;
+}
+
+#form input:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 3px #719ece;
+}
+
+.page {
+  display: none;
+}
+
+.is-Active {
+  display: block;
+}
+
+nav .is-Active {
+  padding: 3px;
+  color: blue;
+  font-weight: bold;
+}
+
+section .home-page {
+  min-height: 100vh;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-info p,
+#contact-info ul {
+  text-align: left;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 31%;
+}
+
+.success {
+  background-color: green;
+  padding: 10px 5px;
+  color: white;
+  font-size: 19px;
+}
+
+.danger {
+  background-color: red;
+  padding: 10px 5px;
+  color: white;
+  font-size: 19px;
+}

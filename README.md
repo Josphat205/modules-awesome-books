@@ -10,7 +10,8 @@ JAVASCRIPT<br />
 
 
 To get a local copy up and running follow these simple example steps.<br /> 
-
+## **Live demo** 
+Click here for  [@Live Demo]( https://josphat205.github.io/modules-awesome-books/). 
  
 ## **Setup**   
 To use this project copy the code SSl link othe repository<br />
